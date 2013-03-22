@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <title>FoundationPress - Help</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/prettify.css" rel="stylesheet">
+
+    <!-- Le JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/prettify.js"></script>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar" onload="prettyPrint()">
+
+<!-- Subhead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+    <div class="container">
+        <h1>Foundation Press</h1>
+
+        <p class="lead">Help file.</p>
+    </div>
+</header>
+
+
+<div class="container">
+<div class="row">
+<div class="span3 bs-docs-sidebar">
+    <ul class="nav nav-list">
+        <li class="nav-header">Getting Started</li>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#pro_version">Pro Version</a></li>
+        <li><a href="#twitter">Twitter Bootstrap</a></li>
+        <li class="nav-header">Shortcodes</li>
+        <li><a href="#typography">Typography</a></li>
+        <li><a href="#tables">Tables</a></li>
+        <li><a href="#pricing_table">Pricing Table</a></li>
+        <li><a href="#grid">Grid</a></li>
+        <li><a href="#components">Components</a></li>
+        <li class="nav-header">About Us</li>
+        <li><a href="#developers">The Developers</a></li>
+        <li><a href="#licensing">Licensing</a></li>
+        <li><a href="#custom_development">Custom Development</a></li>
+    </ul>
+</div>
+<div class="span9">
+<div class="page-header">
+    <h2>Getting Started
+        <small>Getting started with Foundation Press</small>
+    </h2>
+</div>
+<div class="page-header">
+    <h3>Introduction</h3>
+</div>
+<section id="introduction">
+    <p>
+        Foundation Press offers <a href="http://foundation.zurb.com/">Foundation framework</a> styles with
+        WordPress
+        Shortcodes. The aim is to make adding elements
+        such as Tabs, Grid, Buttons... to your WordPress blog as simple as possible.
+    </p>
+</section>
+<div class="page-header">
+    <h3>Installation</h3>
+</div>
+<section id="installation">
+    <p>
+        Just upload the plugin and activate it. Foundation Press requires WordPress 3.5, but the latest
+        version is
+        always
+        recommended.
+    </p>
+</section>
+<div class="page-header">
+    <h3>Usage</h3>
+</div>
+<section id="usage">
+    <p>
+        You can use the Foundation HTML Code directly or the provided the Shortcodes. The Shortcodes are
+        provided
+        for ease
+        of use especially if you are in the WordPress editor. For more information
+        about <a href="http://codex.wordpress.org/Shortcode">Shortcodes</a>.
+    </p>
+</section>
+<div class="page-header">
+    <h3>Pro Version</h3>
+</div>
+<section id="pro_version">
+    <p>
+        We are working on a Premium version which will provide a handful of features.
+    </p>
+    <ul>
+        <li>Visual Shortcodes Editor</li>
+        <li>More Advanced Shortcodes (Slider, Google Maps, Syntax Highlighter...)</li>
+        <li>Customizable Foundation Theme</li>
+        <li>Priority Support</li>
+    </ul>
+    <p>You can sign-up for our announcement newsletter in our <a
+            href="http://costartpress.com">FoundationPress</a>
+        site to get notified when the Premium version
+        is launched</p>
+</section>
+<div class="page-header">
+    <h3>Pro Version</h3>
+</div>
+<section id="twitter">
+    <p>
+        If you are interested in the <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap
+        framework</a>,
+        you
+        can check our other plugin <a
+            href="http://wordpress.org/extend/plugins/bootstrapress/">BoostrapPress</a>.
+    </p>
+</section>
+<div class="page-header">
+    <h2>ShortCodes
+        <small>Usage of the different shortcodes</small>
+    </h2>
+</div>
+
+<!-- Typography Section -->
+<div class="page-header">
+    <h3>Typography</h3>
+</div>
+<section id="typography">
+    <h4>Headlines</h4>
+
+    <div>
+        <p>All HTML headings, h1 through h6 are available.</p>
+        <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_h1]h1. Heading 1[/fp_h1]
+    [fp_h2]h2. Heading 2[/fp_h2]
+    [fp_h3]h3. Heading 3[/fp_h3]
+    [fp_h4]h4. Heading 4[/fp_h4]
+    [fp_h5]h5. Heading 5[/fp_h5]
+    [fp_h6]h6. Heading 6[/fp_h6]
+</pre>
+        <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;h1 class="foundation_press"&gt;h1. Header 1&lt;h1&gt;
+    &lt;h2 class="foundation_press"&gt;h2. Header 2&lt;h2&gt;
+    &lt;h3 class="foundation_press"&gt;h3. Header 3&lt;h3&gt;
+    &lt;h4 class="foundation_press"&gt;h4. Header 4&lt;h4&gt;
+    &lt;h5 class="foundation_press"&gt;h5. Header 5&lt;h5&gt;
+    &lt;h6 class="foundation_press"&gt;h6. Header 6&lt;h6&gt;
+</pre>
+    </div>
+    <h4>Block quotes</h4>
+
+    <div>
+        <p>For quoting blocks of content from another source within your document.</p>
+        <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_blockquote]
+        ... Put content here
+    [/fp_blockquote]
+</pre>
+
+        <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;blockquote class="foundation_press"&gt;
+        ... Put content here
+    &lt;blockquote&gt;
+</pre>
+    </div>
+    <h4>Labels</h4>
+
+    <div>
+        <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_label corner="" color=""]
+    Label Text
+    [/fp_label]
+</pre>
+        <h6>Attributes</h6>
+        <ul>
+            <li><strong>corner</strong> null, radius, round</li>
+            <li><strong>color</strong> null, secondary, alert, success</li>
+        </ul>
+        <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;span class="foundation_press label"&gt;Label Text&lt;/span&gt;
+</pre>
+    </div>
+    <h4>Keystrokes</h4>
+
+    <div>
+        <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_keystroke]Ctrl[/fp_keystroke]
+</pre>
+        <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;kbd class="foundation_press&gt;Ctrl&lt;/kbd&gt;
+</pre>
+    </div>
+
+    <h4>Buttons</h4>
+
+    <div>
+        <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_button link="" size="" color="" corner="" state=""]
+    Button Title
+    [/fp_button]
+</pre>
+        <h6>Attributes</h6>
+        <ul>
+            <li><strong>link</strong> User Input</li>
+            <li><strong>size</strong> null, tiny, small, medium, large</li>
+            <li><strong>color</strong> null, secondary, alert, success</li>
+            <li><strong>corner</strong> null, radius, round</li>
+            <li><strong>state</strong> null, disabled</li>
+        </ul>
+        <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;a href="" class="foundation_press button"&gt;Button Title&lt;/a&gt;
+</pre>
+    </div>
+
+    <h4>Panel</h4>
+
+    <div>
+        <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_panel type="" corner=""]
+    Panel Content
+    [/fp_panel]
+</pre>
+        <h6>Attributes</h6>
+        <ul>
+            <li><strong>type</strong> null, callout</li>
+            <li><strong>corner</strong> null, radius</li>
+        </ul>
+        <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;div class="foundation_press panel"&gt;
+    Panel Content
+    &lt;/div&gt;
+</pre>
+    </div>
+</section>
+
+
+<!-- Tables Section -->
+<div class="page-header">
+    <h3>Tables</h3>
+</div>
+<section id="tables">
+    <h4>Table Element</h4>
+
+    <div>
+        <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_table]
+        ... Table content here
+    [/fp_table]
+</pre>
+        <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;table class="foundation_press table"&gt;
+        ... Table content here
+    &lt;/table&gt;
+</pre>
+    </div>
+    <h4>Table Header</h4>
+
+    <div>
+        <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_head]
+        ... Table header content
+    [/fp_head]
+</pre>
+        <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;thead class="foundation_press"&gt;
+        ... Table header content
+    &lt;/thead&gt;
+</pre>
+    </div>
+    <h4>Table Body</h4>
+
+    <div>
+        <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_head]
+        ... Table body content
+    [/fp_head]
+</pre>
+        <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;tbody class="foundation_press"&gt;
+        ... Table body content
+    &lt;/tbody&gt;
+</pre>
+    </div>
+    <h4>Table Row</h4>
+
+    <div>
+        <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_row]
+        ... Row content here
+    [/fp_row]
+</pre>
+        <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;tr class="foundation_press"&gt;
+        ... Row content here
+    &lt;/tr&gt;
+</pre>
+    </div>
+    <h4>Table Cell</h4>
+
+    <div>
+        <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_cell]
+       ... Cell content here
+    [/fp_cell]
+</pre>
+        <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;td class="foundation_press"&gt;
+        ... Table content here
+    &lt;/td&gt;
+</pre>
+    </div>
+    <h4>Overall</h4>
+
+    <div>
+        <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_table]
+        [fp_head]
+            [fp_row]
+                [fp_cell]First Name[/fp_cell]
+                [fp_cell]Last Name[/fp_cell]
+                [fp_cell]User Name[/fp_cell]
+            [fp_row]
+        [/fp_head]
+        [fp_body]
+            [fp_row]
+                [fp_cell]Mark[/fp_cell]
+                [fp_cell]Otto[/fp_cell]
+                [fp_cell]@mdo[/fp_cell]
+            [/fp_row]
+            [fp_row]
+                [fp_cell]Jacob[/fp_cell]
+                [fp_cell]Thornton[/fp_cell]
+                [fp_cell]@fat[/fp_cell]
+            [/fp_row]
+            [fp_row]
+                [fp_cell]Larry[/fp_cell]
+                [fp_cell]The Bird[/fp_cell]
+                [fp_cell]@twitter[/fp_cell]
+            [/fp_row]
+        [/fp_body]
+    [/fp_table]
+</pre>
+        <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;table class="foundation_press table    "&gt;
+        &lt;thead&gt;&lt;br /&gt;
+        &lt;tr class=""&gt;&lt;/tr&gt;&lt;br /&gt;
+        &lt;td&gt;First Name&lt;/td&gt;&lt;br /&gt;
+        &lt;td&gt;Last Name&lt;/td&gt;&lt;br /&gt;
+        &lt;td&gt;User Name&lt;/td&gt;&lt;br /&gt;
+        &lt;tr class=""&gt;&lt;/tr&gt;&lt;br /&gt;
+        &lt;/thead&gt;&lt;br /&gt;
+        &lt;tbody&gt;&lt;br /&gt;
+        &lt;tr class=""&gt;&lt;br /&gt;
+            &lt;td&gt;Mark&lt;/td&gt;&lt;br /&gt;
+            &lt;td&gt;Otto&lt;/td&gt;&lt;br /&gt;
+            &lt;td&gt;@mdo&lt;/td&gt;&lt;br /&gt;
+        &lt;/tr&gt;&lt;br /&gt;
+        &lt;tr class=""&gt;&lt;br /&gt;
+            &lt;td&gt;Jacob&lt;/td&gt;&lt;br /&gt;
+            &lt;td&gt;Thornton&lt;/td&gt;&lt;br /&gt;
+            &lt;td&gt;@fat&lt;/td&gt;&lt;br /&gt;
+        &lt;/tr&gt;&lt;br /&gt;
+        &lt;tr class=""&gt;&lt;br /&gt;
+            &lt;td&gt;Larry&lt;/td&gt;&lt;br /&gt;
+            &lt;td&gt;The Bird&lt;/td&gt;&lt;br /&gt;
+            &lt;td&gt;@twitter&lt;/td&gt;&lt;br /&gt;
+        &lt;/tr&gt;&lt;br /&gt;
+        &lt;/tbody&gt;&lt;br /&gt;
+    &lt;/table&gt;
+</pre>
+    </div>
+</section>
+
+<!-- Tables Section -->
+<div class="page-header">
+    <h3>Pricing Table</h3>
+</div>
+<section id="pricing_table">
+    <div>
+        <h5>Usage</h5>
+<pre class="prettyprint">
+[fp_pricing_table title="" price="" description="" cta=""]
+    [fp_pricing_item]
+    Table Row
+    [/fp_pricing_item]
+[/fp_pricing_table]
+</pre>
+        <h5>Output</h5>
+<pre class="prettyprint">
+&lt;ul class="pricing-table"&gt;
+    &lt;li class="title"&gt;&lt;/li&gt;
+    &lt;li class="price"&gt;&lt;/li&gt;
+    &lt;li class="description"&gt;&lt;/li&gt;
+    &lt;li class="bullet-item"&gt;
+    Table Row
+    &lt;/li&gt;
+    &lt;li class="cta-button"&gt;&lt;a class="button" href="#"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+    </div>
+</section>
+
+<!-- Grid Section -->
+<div class="page-header">
+    <h3>Grid</h3>
+</div>
+<section id="grid">
+    <h4>Grid Container</h4>
+
+    <div>
+        <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_grid]
+        ... Grid content here
+    [/fp_grid]
+</pre>
+        <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;div class="foundation_press row"&gt;
+        ... Grid content here
+    &lt;/div&gt;
+</pre>
+    </div>
+
+    <h4>Grid Column</h4>
+
+    <div>
+        <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_column size=""]
+        ... Column content here
+    [/fp_column]
+</pre>
+        <h6>Attributes</h6>
+        <ul>
+            <li><strong>size</strong> 1 to 12</li>
+        </ul>
+        <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;div class="foundation_press columns large-2"&gt;
+        ... Column content here
+    &lt;/div&gt;
+    &lt;div class="foundation_press columns large-6"&gt;
+        ... Column content here
+    &lt;/div&gt;
+</pre>
+    </div>
+</section>
+
+<!-- Components Section -->
+<div class="page-header">
+    <h3>Components</h3>
+</div>
+<section id="components">
+    <h4>Tabs</h4>
+
+    <div>
+        <p>
+            Add quick, dynamic tab functionality to transition through panes of local content.
+        </p>
+        <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_tabs]
+        [fp_tab title="Home"]
+            My Home content
+        [/fp_tab]
+        [fp_tab title="Profile"]
+            My Profile content
+        [/fp_tab]
+        [fp_tab title="Messages"
+            My Messages content
+        [/fp_tab]
+    [/fp_tabs]
+</pre>
+        <h6>Attributes</h6>
+        <ul>
+            <li><strong>title</strong> User Input</li>
+        </ul>
+        <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;div class="section-container tabs" data-section=""&gt;
+      &lt;section class="section" style=""&gt;
+        &lt;p class="title" style="left: 0px;"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/p&gt;
+        &lt;div class="content"&gt;
+          &lt;p&gt;
+                My Home content
+            &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+            &lt;section class="section" style=""&gt;
+        &lt;p class="title" style="left: 58px;"&gt;&lt;a href="#"&gt;Profile&lt;/a&gt;&lt;/p&gt;
+        &lt;div class="content"&gt;
+          &lt;p&gt;
+                My Profile content
+            &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+            &lt;section class="section active" style="padding-top: 42px;"&gt;
+        &lt;p class="title" style="left: 118px;"&gt;&lt;a href="#"&gt;Messages&lt;/a&gt;&lt;/p&gt;
+        &lt;div class="content"&gt;
+          &lt;p&gt;&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+    &lt;/div&gt;
+</pre>
+    </div>
+    <h4>Accordion</h4>
+
+    <div>
+        <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_accordion]
+        [fp_tab title="Home"]
+            My Home content
+        [/fp_tab]
+        [fp_tab title="Profile"]
+            My Profile content
+        [/fp_tab]
+        [fp_tab title="Messages"
+            My Messages content
+        [/fp_tab]
+    [/fp_fp_accordion]
+</pre>
+        <h6>Attributes</h6>
+        <ul>
+            <li><strong>title</strong> User Input</li>
+        </ul>
+        <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;div class="section-container" data-section=""&gt;
+      &lt;section class="section" style=""&gt;
+        &lt;p class="title" style="left: 0px;"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/p&gt;
+        &lt;div class="content"&gt;
+          &lt;p&gt;
+                My Home content
+            &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+            &lt;section class="section" style=""&gt;
+        &lt;p class="title" style="left: 58px;"&gt;&lt;a href="#"&gt;Profile&lt;/a&gt;&lt;/p&gt;
+        &lt;div class="content"&gt;
+          &lt;p&gt;
+                My Profile content
+            &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+            &lt;section class="section active" style="padding-top: 42px;"&gt;
+        &lt;p class="title" style="left: 118px;"&gt;&lt;a href="#"&gt;Messages&lt;/a&gt;&lt;/p&gt;
+        &lt;div class="content"&gt;
+          &lt;p&gt;&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+    &lt;/div&gt;
+</pre>
+    </div>
+</section>
+<h4>Alert</h4>
+
+<div>
+    <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_alert color="" corner=""]Alert Text[/fp_alert]
+</pre>
+    <h6>Attributes</h6>
+    <ul>
+        <li><strong>color</strong> null, success, alert, secondary</li>
+        <li><strong>corner</strong> null, round</li>
+    </ul>
+    <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;div data-alert="" class="alert-box  "&gt;
+        Alert Text
+      &lt;a href="#" class="close"&gt;×&lt;/a&gt;
+    &lt;/div&gt;
+</pre>
+</div>
+<h4>Tooltip</h4>
+<div>
+    <h5>Usage</h5>
+<pre class="prettyprint">
+    [fp_tooltip placement="" tooltip="Tooltip Text"]Text to explain[/fp_tooltip]
+</pre>
+    <h6>Attributes</h6>
+    <ul>
+        <li><strong>placement</strong> null, top, bottom, left, right</li>
+        <li><strong>tooltip</strong> User input</li>
+    </ul>
+    <h5>Output</h5>
+<pre class="prettyprint">
+    &lt;span data-tooltip class="foundation_press has-tip tip-top" title="Tootlip Text"&gt;Text to explain&lt;/span&gt;
+</pre>
+</div>
+
+<h2>About Us
+    <small>The people behind Foundation Press</small>
+</h2>
+<div class="page-header">
+    <h3>The Developers</h3>
+</div>
+<section id="developers">
+    <p>
+        FoundationPress is developed and maintained by <a href="http://omarabid.com">Abid Omar</a>.
+    </p>
+</section>
+<div class="page-header">
+    <h3>Licensing</h3>
+</div>
+<section id="licensing">
+    <p>
+        FoundationPress is licensed under the <a href="http://www.gnu.org/licenses/gpl.html">GPLv3
+        License</a>. The
+        Foundation CSS code is licensed under the <a href="http://opensource.org/licenses/MIT">MIT Open
+        Source License</a>. The MIT License is <a
+            href="https://twitter.com/markjaquith/status/188108457386311681">compatible</a>
+        with the GPLv3.
+    </p>
+</section>
+<div class="page-header">
+    <h3>Custom Development</h3>
+</div>
+<section id="custom_development">
+    <p>
+        We are open to custom development requests for WordPress, PHP and Front-End development
+        (JavaScript). If you are
+        interested you can contact us: contact@omarabid.com.
+    </p>
+</section>
+</div>
+</div>
+</div>
+</body>
+</html>
