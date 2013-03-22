@@ -1,4 +1,4 @@
-=== BootstraPress ===
+=== FoundationPress ===
 Contributors: omarabid
 Donate link: http://omarabid.com/
 Tags: foundation, zurb, twitter bootstrap, bootstrap, shortcodes, shortcode, styles, widget, Post, plugin, posts, twitter, images, page, links, Bootstrap CSS, CSS, normalize, reset, Twitter Bootstrap Javascript, WordPress Admin, WordPress Bootstrap, YUI
