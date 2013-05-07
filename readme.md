@@ -51,5 +51,8 @@ Join our [mailing list](http://costartpress.com) to get notified when the premiu
 
 # Changelog
 
+### 0.0.2
+* Usage Code
+
 ### 0.0.1
 * Initial Release

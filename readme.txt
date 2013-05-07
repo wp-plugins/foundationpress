@@ -4,7 +4,7 @@ Donate link: http://omarabid.com/
 Tags: foundation, zurb, twitter bootstrap, bootstrap, shortcodes, shortcode, styles, widget, Post, plugin, posts, twitter, images, page, links, Bootstrap CSS, CSS, normalize, reset, Twitter Bootstrap Javascript, WordPress Admin, WordPress Bootstrap, YUI
 Requires at least: 3.5.0
 Tested up to: 3.5.1
-Stable tag: 0.0.1
+Stable tag: 0.0.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/quick-guide-gplv3.html
 
@@ -51,6 +51,9 @@ FoundaionPress support the following styles
 3. Open 'index.html' in the 'help' folder. Read the documentation for the shortcodes you want to use.
 
 == Changelog ==
+
+= 0.0.2 =
+* Usage Code
 
 = 0.0.1 =
 * Initial Release
